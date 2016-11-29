@@ -13,15 +13,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
-/**
- * insert into BENUTZER (username, password, rolle,email, kontingent) VALUES
- * ('emil@web.de','ae80d870eb40a8fd7c256c0ec3faf2ba511ba134','WEB','emil@web.de',
- * 5);
- * insert into BENUTZER (username, password, rolle,email, kontingent, ipadresse) VALUES
- * ('emil@web.de','ae80d870eb40a8fd7c256c0ec3faf2ba511ba134','IP','emil@web.de',
- * 5,'127.0.0.1');
- * @author fklein-robbenhaar
- */
+
 @Entity
 @Table(name = "BENUTZER")
 @XmlRootElement
