@@ -2,7 +2,6 @@ package de.drschade.lebensversicherung.grobrechner.business.berechnung.entity;
 
 import de.drschade.lebensversicherung.grobrechner.business.FachObjekt;
 import java.math.BigDecimal;
-import java.util.regex.Pattern;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,7 +17,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 /**
  *
- * @author fklein-robbenhaar
+ * @author pschade
  */
 @Entity
 @Table(name = "BERECHNUNG_ERGEBNIS")
